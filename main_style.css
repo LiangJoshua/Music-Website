@@ -1,0 +1,347 @@
+.login_form {
+    border: 1px solid #AAA;
+    padding:10px;
+}
+*|* {
+  margin:0pt;
+  padding:0pt;
+}
+body {
+  background: #000 url(http://fc05.deviantart.net/fs71/f/2010/022/7/3/Skyline_of_NYC_by_ardit98.jpg) center top no-repeat;
+  background-color: #000;
+  font-family: Whatka, verdana, arial, sans-serif;
+  font-size:12px;
+  color:#666666;
+  margin:0;
+  padding:0;
+}
+p {
+  line-height:170%;
+}
+
+.button {
+  postition:relative;
+  top:15px;
+  left: 640px;
+  z-index 1000;
+}
+
+ 
+h1  {
+    font-size:30px;
+    font-weight:bold;
+      color:#333;
+    line-height:1.5;
+    margin: 0px 0px 10px 0px;
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+     color:#333;
+    line-height:1.5;
+    margin: 5px 0px 5px 0px;
+}
+#wrapper {
+  width:100%;
+  margin:0pt auto;
+}
+​​#slider {
+    background:#fff;
+    position:relative;
+    z-index:0;
+}
+
+#slider > div > div > div,
+#icontent #slider > div > ul > li > .element-box > div > div > div {
+    height:initial!important;
+}
+
+#slider .wslide-slide-inner1 {
+    position: initial!important;
+}
+
+#slider .wslide-slide-inner2 {
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+}
+
+#slider .wslide-slide-inner2 img {
+    width: 100%!important;
+}
+
+#slider .wslide-caption-text {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2em;
+}
+
+#main {
+  position:relative;
+  width:979px;
+  margin:0pt auto;
+}
+#header  {
+  height:88px;
+}
+#sitename {
+  color:#fff;
+  padding-top:27px;
+  font-size:26px;
+}
+#content-wrapper  {
+  float:left;
+  background:  transparent url(http://eddiep3d.com/wp-content/uploads/2010/01/Underground_sewerentrance.jpg) repeat-y right top;
+  width:979px;
+}
+#content  {
+  background: transparent url(http://eddiep3d.com/wp-content/uploads/2010/01/Underground_sewerentrance.jpg) no-repeat right top;
+  width:927px;
+  padding:26px 26px 26px 26px;
+  height:auto !important;
+  min-height:600px;
+}
+#header-image  {
+  float:left;
+  width:922px;
+  height:261px;
+  padding:3px;
+  border:1px solid #e5e5e5;
+  margin-bottom:6px;
+}
+.weebly_header  {
+  background: transparent url(%%HEADERIMG%%) no-repeat right top;
+  width:920px;
+  height:259px;  
+  margin-left:1px;
+  margin-top:1px;
+}
+#navigation_wrapper {
+  position:relative;
+  float:left;
+  height:36px;
+  width:922px;
+  _width:918px;
+  padding:3px;
+  border:1px solid #e5e5e5;
+  position:relative;
+}
+#navigation {
+  background-color:#666666;
+  width:922px;
+  _width:914px;
+  height:36px;
+}
+#navigation  ul {
+  float:left;
+  width:900px;
+  _width:892px;
+  padding:6px 10px 0 0;
+  margin-left:20px;
+  _margin-left:10px;
+}
+#navigation  li {
+  float:left;
+  display:inline;
+  font-family:  arial,  verdana, sans-serif;
+  text-align:center;
+  font-size:11px;
+  font-weight:bold;
+  padding:5px 40px 12px 0px;
+  margin-top:0px;
+  margin-right:3px;
+}
+
+#navigation  a:link {
+  color:#339999;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:#339999;
+}
+#navigation a:visited {
+  color:#339999;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:#000000;  
+}  
+#navigation a:hover {
+  color:#339999;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:#000000;
+}
+#active a:link {
+  color:#339999;
+  text-decoration:#000000;  
+}
+#active a:hover {
+  color:#000000;
+  text-decoration:#339999;  
+}
+#active a:visited {
+  color:#000000;
+  text-decoration:#000000;  
+}
+a:link,a:hover,a:visited {
+  color:#000000;
+  font-weight:normal;
+  text-decoration:#000000;    
+}
+#content-main  {
+  float:left;
+  width:925px;
+  height:auto !important;
+  min-height:400px;
+  padding:15px 0px 35px 0px;
+}
+#footer {
+  position:relative;
+  float: left;
+  background-color:#000;
+  width:100%;
+}
+#footer-image  {
+  background:transparent url(http://eddiep3d.com/wp-content/uploads/2010/01/Underground_sewerentrance.jpg) no-repeat center top;
+  margin:0pt auto;
+  padding:7px 10px 0 0px;
+  width:979px;
+}
+#footer-contents  {
+  margin-top:25px;
+  text-align:left;
+  font-family:"lucida grande", "lucida sans", arial, sans-serif;
+  color:#fff;
+  padding:27px 10px 27px 5px;
+  _padding:27px 10px 27px 25px;
+  width:979px;
+}
+
+/****************************** flyout menus  ******************************/
+
+#weebly-menus  .weebly-menu-wrap  {
+    z-index: 5000;
+    margin: 3px 0px 0px 0px;
+}
+
+#weebly-menus  .weebly-menu  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#weebly-menus  .weebly-menu  li {
+    float: left;
+    clear: left;
+    width: 170px;
+    text-align: left;
+}
+
+#weebly-menus  .weebly-menu  li a { #wsite-menus .wsite-menu li a { position: relative; display: block; width: 100%; background: #000000; border-top: #000000; border-bottom: 1px solid #000000; border-right: #000000; border-left:#000000; text-decoration: #000000; font-size: 12px; font-weight: normal; ne-height:1; padding: 8px 6px 8px 12px; color: #000000; }
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #CCFFFF;
+    border-right:  1px solid #CCFFFF;
+    border-left: 1px solid #CCFFFF;
+    border-bottom: 1px solid #CCFFFF;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: normal;
+    line-height:1;
+    padding:3px;
+    color: #000;
+}
+
+#weebly-menus .weebly-menu li  a:hover { #wsite-menus .wsite-menu li a:hover { background: #00CCCC; color: #00CCCC; font-weight: bold; }
+    position: relative;
+    background: #CCFFFF;
+}
+
+#weebly-menus  span.weebly-menu-title  { 
+    display: block;
+    padding: 5px 10px;
+}
+
+#weebly-menus  span.weebly-menu-more  { 
+    position: relative;
+    background: transparent url(http://images.weebly.com/weebly/images/submenu_arrow.gif) no-repeat center top;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    font-family:  Courier;
+    height: 28px;
+    line-height: 28px;
+    padding:1px 0 3px 0;
+}
+
+// initialization of login system and generation code
+$oSimpleLoginSystem = new SimpleLoginSystem();
+echo $oSimpleLoginSystem->getLoginBox();
+ 
+// class SimpleLoginSystem
+class SimpleLoginSystem {
+ 
+    // variables
+    var $aExistedMembers; // Existed members array
+ 
+    // constructor
+    function SimpleLoginSystem() {
+        $this->aExistedMembers = array(
+            'User1' => 'd8578edf8458ce06fbc5bb76a58c5ca4',  //Sample: MD5('qwerty')
+            'User2' => 'd8578edf8458ce06fbc5bb76a58c5ca4'
+        );
+    }
+ 
+    function getLoginBox() {
+        ob_start();
+        require_once('login_form.html');
+        $sLoginForm = ob_get_clean();
+ 
+        $sLogoutForm = '<a href="'.$_SERVER['PHP_SELF'].'?logout=1">logout</a>';
+ 
+        if ((int)$_REQUEST['logout'] == 1) {
+            if (isset($_COOKIE['member_name']) && isset($_COOKIE['member_pass']))
+                $this->simple_logout();
+        }
+ 
+        if ($_REQUEST['username'] && $_REQUEST['password']) {
+            if ($this->check_login($_REQUEST['username'], MD5($_REQUEST['password']))) {
+                $this->simple_login($_REQUEST['username'], $_REQUEST['password']);
+                return 'Hello ' . $_REQUEST['username'] . '! ' . $sLogoutForm;
+            } else {
+                return 'Username or Password is incorrect' . $sLoginForm;
+            }
+        } else {
+            if ($_COOKIE['member_name'] && $_COOKIE['member_pass']) {
+                if ($this->check_login($_COOKIE['member_name'], $_COOKIE['member_pass'])) {
+                    return 'Hello ' . $_COOKIE['member_name'] . '! ' . $sLogoutForm;
+                }
+            }
+            return $sLoginForm;
+        }
+    }
+ 
+    function simple_login($sName, $sPass) {
+        $this->simple_logout();
+ 
+        $sMd5Password = MD5($sPass);
+ 
+        $iCookieTime = time() + 24*60*60*30;
+        setcookie("member_name", $sName, $iCookieTime, '/');
+        $_COOKIE['member_name'] = $sName;
+        setcookie("member_pass", $sMd5Password, $iCookieTime, '/');
+        $_COOKIE['member_pass'] = $sMd5Password;
+    }
+ 
+    function simple_logout() {
+        setcookie('member_name', '', time() - 96 * 3600, '/');
+        setcookie('member_pass', '', time() - 96 * 3600, '/');
+ 
+        unset($_COOKIE['member_name']);
+        unset($_COOKIE['member_pass']);
+    }
+ 
+    function check_login($sName, $sPass) {
+        return ($this->aExistedMembers[$sName] == $sPass);
+    }
+}
